@@ -1,0 +1,11 @@
+[user]
+  email = contact@mattonsoftware.com
+  name = Matt Dunn
+[color]
+  ui = true
+[alias]
+  pl = log --pretty=oneline --decorate --graph --abbrev-commit
+  st = status
+  rb = pull --rebase
+[push]
+  default = simple
