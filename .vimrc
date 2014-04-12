@@ -5,6 +5,10 @@ filetype on
 filetype indent on
 filetype plugin on
 
+if $TERM == "xterm-256color"
+  set t_Co=256
+endif
+
 set background=dark
 colorscheme railscasts
 
