@@ -7,5 +7,6 @@
   pl = log --pretty=oneline --decorate --graph --abbrev-commit
   st = status
   rb = pull --rebase
+  co = checkout
 [push]
   default = simple
