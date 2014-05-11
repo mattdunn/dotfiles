@@ -17,3 +17,7 @@ if [ -f /usr/local/opt/chruby/share/chruby/chruby.sh ]; then
     chruby $(cat ~/.ruby-version)
   fi
 fi
+
+if [ -f "$HOME/.nvm/nvm.sh" ]; then
+  . "$HOME/.nvm/nvm.sh"
+fi
