@@ -20,4 +20,17 @@ symlink_dotfiles(){
   done
 }
 
+install_vim_plugins(){
+  if [ -e "$HOME/.vim/" ]; then
+      echo "Removing ~/.vim/"
+      rm -rf $HOME/.vim/
+  fi
+
+  echo "Copying vim pathogen and plugins"
+  mkdir -p $HOME/.vim/autoload $HOME/.vim/bundle
+  cp -r vim/package/tpope-vim-pathogen/autoload/ $HOME/.vim/autoload
+  cp -r vim/colors/ $HOME/.vim/bundle
+}
+
 symlink_dotfiles
+install_vim_plugins
