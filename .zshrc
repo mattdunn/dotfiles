@@ -6,6 +6,9 @@ source $ZSH/oh-my-zsh.sh
 
 export TERM="xterm-256color"
 
+# use vi mode on command line
+bindkey -v
+
 # local bin takes precedence for homebrew installed apps e.g. git
 export PATH="/usr/local/bin:$PATH"
 
