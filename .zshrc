@@ -21,3 +21,5 @@ fi
 if [ -f "$HOME/.nvm/nvm.sh" ]; then
   . "$HOME/.nvm/nvm.sh"
 fi
+
+$(boot2docker shellinit)
