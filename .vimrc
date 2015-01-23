@@ -1,5 +1,5 @@
 runtime bundle/vim-pathogen/autoload/pathogen.vim
-execute pathogen#infect()
+"execute pathogen#infect()
 syntax on
 filetype on
 filetype indent on
@@ -10,7 +10,7 @@ if $TERM == "xterm-256color"
 endif
 
 set background=dark
-colorscheme railscasts
+"colorscheme railscasts
 
 set expandtab
 set tabstop=2
