@@ -1,7 +1,7 @@
 export ZSH=$HOME/.oh-my-zsh
 ZSH_THEME="robbyrussell"
 HIST_STAMPS="dd.mm.yyyy"
-plugins=(git ruby rails bundler brew chruby coffee cp heroku node tmux nvm)
+plugins=(git ruby rails bundler brew chruby coffee cp heroku node tmux nvm docker)
 source $ZSH/oh-my-zsh.sh
 
 export TERM="xterm-256color"
