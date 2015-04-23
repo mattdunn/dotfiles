@@ -6,3 +6,7 @@
   url = git@github.com:tpope/vim-pathogen.git
   path = vim/package/tpope-vim-pathogen
   branch = master
+[subtree "nerdtree"]
+  url = git@github.com:scrooloose/nerdtree.git
+  path = vim/package/nerdtree
+  branch = master

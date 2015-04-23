@@ -29,6 +29,7 @@ install_vim_plugins(){
   echo "Copying vim pathogen and plugins"
   mkdir -p $HOME/.vim/autoload $HOME/.vim/bundle
   cp -r vim/package/tpope-vim-pathogen/autoload/ $HOME/.vim/autoload
+  cp -r vim/package/nerdtree/ $HOME/.vim/bundle/nerdtree
   cp -r vim/colors/ $HOME/.vim/bundle
 }
 
