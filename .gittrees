@@ -1,12 +1,12 @@
-[subtree "jpo-vim-railscasts-theme"]
+[subtree "vim/colors/jpo-vim-railscasts-theme"]
   url = git@github.com:jpo/vim-railscasts-theme.git
   path = vim/colors/jpo-vim-railscasts-theme
   branch = master
-[subtree "tpope-vim-pathogen"]
+[subtree "vim/package/tpope-vim-pathogen"]
   url = git@github.com:tpope/vim-pathogen.git
   path = vim/package/tpope-vim-pathogen
   branch = master
-[subtree "nerdtree"]
+[subtree "vim/package/nerdtree"]
   url = git@github.com:scrooloose/nerdtree.git
   path = vim/package/nerdtree
   branch = master
