@@ -19,6 +19,8 @@ set shiftwidth=2
 set number                    " display line numbers
 set noswapfile                " disable swap file creation 
 
+set fillchars+=vert:\         " remove dash from horizontal separator
+
 " load powerline
 source $HOME/Library/Python/2.7/lib/python/site-packages/powerline/bindings/vim/plugin/powerline.vim
 set laststatus=2
