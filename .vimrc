@@ -27,3 +27,5 @@ set laststatus=2
 
 autocmd VimEnter * NERDTree   " load NERDTree on vim load
 autocmd VimEnter * wincmd p   " shift focus to main pane
+
+let NERDTreeShowHidden=1      " show hidden files by default in NERDTree
