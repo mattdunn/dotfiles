@@ -22,4 +22,4 @@ if [ -f "$HOME/.nvm/nvm.sh" ]; then
   . "$HOME/.nvm/nvm.sh"
 fi
 
-$(boot2docker shellinit)
+eval "$(docker-machine env docker-vm)"
