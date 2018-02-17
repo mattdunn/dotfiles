@@ -21,3 +21,7 @@ fi
 if [ -f "$HOME/.nvm/nvm.sh" ]; then
   . "$HOME/.nvm/nvm.sh"
 fi
+
+# initialise auto cd
+setopt auto_cd
+cdpath=($HOME/projects)
