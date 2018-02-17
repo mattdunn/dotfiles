@@ -21,5 +21,3 @@ fi
 if [ -f "$HOME/.nvm/nvm.sh" ]; then
   . "$HOME/.nvm/nvm.sh"
 fi
-
-eval "$(docker-machine env docker-vm)"
