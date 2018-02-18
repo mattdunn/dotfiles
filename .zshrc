@@ -7,7 +7,9 @@ source $ZSH/oh-my-zsh.sh
 export TERM="xterm-256color"
 
 # local bin takes precedence for homebrew installed apps e.g. git
-export PATH="/usr/local/bin:$PATH"
+path=('/usr/local/bin' $path)
+path+="/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+export PATH
 
 if [ -f /usr/local/opt/chruby/share/chruby/chruby.sh ]; then
   source /usr/local/opt/chruby/share/chruby/chruby.sh
