@@ -27,7 +27,3 @@ fi
 # initialise auto cd
 setopt auto_cd
 cdpath=($HOME/projects)
-
-# use homebrew installed vim
-alias vim="/usr/local/Cellar/vim/8.2.0500_1/bin/vim"
-
